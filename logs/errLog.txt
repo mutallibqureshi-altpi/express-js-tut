@@ -1,0 +1,13 @@
+20230905	15:31:45	b7a5338b-5fef-4cbe-84e3-e6fe0a0a8959	Error: Not allowed by cors
+20230905	15:31:45	326369db-7449-436e-b9c0-07384847ca27	Error: Not allowed by cors
+20230905	15:34:20	c5fe1102-5cf8-403f-b5f1-b684408e6353	Error: Not allowed by cors
+20230905	16:38:04	bfd6a602-242e-4a78-bb89-07d421793924	Error: ENOENT: no such file or directory, stat 'D:\mutallib\express js\dave-tut\views\subdir\index.html'
+20230905	16:38:27	5cd1f7e2-f1cb-46d6-9f7b-3f9e32a8c733	Error: ENOENT: no such file or directory, stat 'D:\mutallib\express js\dave-tut\views\subdir\index.html'
+20230905	16:38:36	5e2a92f1-86e9-494f-a3a7-7f3bd43fefd1	Error: ENOENT: no such file or directory, stat 'D:\mutallib\express js\dave-tut\views\subdir\index.html'
+20230905	16:40:48	2949f9e9-5c4d-437a-ad46-4eb206188f3a	Error: ENOENT: no such file or directory, stat 'D:\mutallib\express js\dave-tut\views\subdir\index.html'
+20230905	16:42:57	94d7ef52-7357-4e86-9d10-434b46e54c6d	Error: ENOENT: no such file or directory, stat 'D:\mutallib\express js\dave-tut\views\subdir\index.html'
+20230905	16:43:50	4b03eaae-6715-4f73-ab67-0140c1434fe2	Error: ENOENT: no such file or directory, stat 'D:\mutallib\express js\dave-tut\views\subdir\test.html'
+20230905	16:44:28	74a39aa6-f78b-41e6-a3a9-d9d131274fcb	Error: ENOENT: no such file or directory, stat 'D:\mutallib\express js\dave-tut\views\subdir\test.html'
+20230905	16:44:43	f7a55b0e-228e-41bc-818d-5693e3d46034	Error: ENOENT: no such file or directory, stat 'D:\mutallib\express js\dave-tut\views\subdir\index.html'
+20230905	16:44:59	8f48024c-4319-472f-98f8-3a5643a0d2a6	Error: ENOENT: no such file or directory, stat 'D:\mutallib\express js\dave-tut\views\subdir\index.html'
+20230905	16:45:12	6071241b-0205-409c-a0a1-7a9162225195	Error: ENOENT: no such file or directory, stat 'D:\mutallib\express js\dave-tut\views\subdir\index.html'
