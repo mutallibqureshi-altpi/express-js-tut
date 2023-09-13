@@ -5,6 +5,30 @@ const path = require("path");
 const { logger } = require("./middleware/logEvent");
 const errorHandler = require("./middleware/errorHandler");
 const corsOptions = require("./config/corsOption");
+const bodyParser = require("body-parser");
+const mysql = require("mysql2");
+
+app.use(bodyParser.json());
+const db = mysql.createConnection({
+  host: "localhost",
+  user: "root",
+  password: "root",
+  database: "mydatabase",
+});
+
+db.connect((err) => {
+  if (err) throw err;
+  console.log("Database connected");
+});
+
+app.post("/data", (req, res) => {
+  const { firstname, lastname } = req.body;
+  const sql = "INSERT INTO mytable(firstname, lastname) VALUES(?, ?)";
+  db.query(sql, [firstname, lastname], (err, result) => {
+    if (err) throw err;
+    res.send("Table Created");
+  });
+});
 
 // custom-middleware
 app.use(logger);
@@ -19,6 +43,8 @@ app.use(express.static(path.join(__dirname, "public")));
 // routes
 app.use("/", require("./routes/root"));
 app.use("/subdir", require("./routes/subdir"));
+app.use("/register", require("./routes/register"));
+app.use("/auth", require("./routes/auth"));
 app.use("/employee", require("./routes/api/employee"));
 
 app.all("*", (req, res) => {
@@ -28,6 +54,6 @@ app.all("*", (req, res) => {
   }
 });
 
-app.listen(3000, () => {
-  console.log("server running at 3000");
+app.listen(5000, () => {
+  console.log("server running at 5000");
 });

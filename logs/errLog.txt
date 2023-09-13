@@ -11,3 +11,9 @@
 20230905	16:44:43	f7a55b0e-228e-41bc-818d-5693e3d46034	Error: ENOENT: no such file or directory, stat 'D:\mutallib\express js\dave-tut\views\subdir\index.html'
 20230905	16:44:59	8f48024c-4319-472f-98f8-3a5643a0d2a6	Error: ENOENT: no such file or directory, stat 'D:\mutallib\express js\dave-tut\views\subdir\index.html'
 20230905	16:45:12	6071241b-0205-409c-a0a1-7a9162225195	Error: ENOENT: no such file or directory, stat 'D:\mutallib\express js\dave-tut\views\subdir\index.html'
+20230906	17:09:25	0c68cc2f-3556-4096-a10f-c84c590ae208	TypeError: Cannot destructure property 'firstname' of 'req.body' as it is undefined.
+20230906	17:10:02	d26df07c-d515-4a88-9e22-8a0fc366ae5f	TypeError: Cannot read properties of undefined (reading 'firstname')
+20230906	17:11:22	c0eeddb7-096e-459a-a6f2-6bbbec91117f	TypeError: Cannot read properties of undefined (reading 'firstname')
+20230906	17:12:28	90fda496-dde8-4aa0-886b-d29a6fdd7928	TypeError: Cannot read properties of undefined (reading 'firstname')
+20230906	17:17:38	8bf8622f-26b0-4622-bbc7-01ed513cf6c2	TypeError: Cannot destructure property 'firstname' of 'req.body' as it is undefined.
+20230906	17:20:01	ca5984b5-f55a-44c6-a944-66260d4eff4a	TypeError: Cannot destructure property 'firstname' of 'req.body' as it is undefined.
